@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuxeDrop — Premium Dropshipping Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <span class="topbar-text">Free Shipping on Orders Over $49 &nbsp;|&nbsp; 30-Day Easy Returns</span>
+      <div class="topbar-links d-none d-md-flex gap-3">
+        <a href="#">Track Order</a>
+        <a href="#">Help</a>
+        <a href="#">Login</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top luxe-navbar" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="brand-icon">L</span>
+      <span class="brand-text">LuxeDrop</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bestsellers">Best Sellers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#deals">Daily Deals</a></li>
+        <li class="nav-item"><a class="nav-link" href="#trust">Why Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions d-flex align-items-center gap-3">
+        <button class="nav-icon-btn" title="Search">
+          <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="search" width="18" height="18" style="opacity:0.6" />
+        </button>
+        <button class="nav-icon-btn" title="Wishlist">
+          <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="wishlist" width="18" height="18" style="opacity:0.6" />
+        </button>
+        <button class="cart-btn" title="Cart">
+          <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="cart" width="18" height="18" style="filter:invert(1)" />
+          <span class="cart-badge">3</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-section" id="home">
+  <div class="hero-bg-overlay"></div>
+  <div class="container">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-6 hero-content" data-aos="fade-right">
+        <div class="hero-badge">New Arrivals 2026</div>
+        <h1 class="hero-title">
+          Discover <span class="hero-highlight">Premium</span><br/>
+          Products Delivered<br/>
+          To Your Door
+        </h1>
+        <p class="hero-subtitle">
+          Shop a curated selection of premium everyday essentials, from stylish clothing and accessories to the latest mobiles, eyewear, jewelry, and home furnishings. Enjoy seamless ordering, trusted quality, and fast doorstep delivery designed to make your shopping experience simple, convenient, and effortlessly luxurious.
+        </p>
+        <div class="hero-btns d-flex flex-wrap gap-3">
+          <a href="#bestsellers" class="btn btn-primary-luxe">Shop Now</a>
+          <a href="#categories" class="btn btn-outline-luxe">Explore Categories</a>
+        </div>
+        <div class="hero-stats d-flex gap-4 mt-5">
+          <div class="hero-stat">
+            <div class="stat-num">50K+</div>
+            <div class="stat-label">Happy Customers</div>
+          </div>
+          <div class="vr-divider"></div>
+          <div class="hero-stat">
+            <div class="stat-num">10K+</div>
+            <div class="stat-label">Products</div>
+          </div>
+          <div class="vr-divider"></div>
+          <div class="hero-stat">
+            <div class="stat-num">98%</div>
+            <div class="stat-label">Satisfaction</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 hero-image-col d-none d-lg-block" data-aos="fade-left">
+        <div class="hero-img-wrapper">
+          <!-- <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=700&q=80" alt="Premium Shopping" class="hero-main-img" /> -->
+          <div class="hero-float-card float-card-1">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=60&q=80" alt="watch" />
+            <div>
+              <div class="fc-title">Premium Watch</div>
+              <div class="fc-price">$129.99</div>
+            </div>
+          </div>
+          <div class="hero-float-card float-card-2">
+            <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=60&q=80" alt="beauty" />
+            <div>
+              <div class="fc-title">Beauty Set</div>
+              <div class="fc-price">$49.99</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="trust-strip">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-6 col-md-3 trust-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/3705/3705571.png" alt="free shipping" width="32" height="32" />
+        <div>
+          <div class="ti-title">Free Shipping</div>
+          <div class="ti-sub">On orders over $49</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 trust-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="quality" width="32" height="32" />
+        <div>
+          <div class="ti-title">Quality Assured</div>
+          <div class="ti-sub">Vetted suppliers only</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 trust-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/2037/2037569.png" alt="returns" width="32" height="32" />
+        <div>
+          <div class="ti-title">30-Day Returns</div>
+          <div class="ti-sub">Hassle-free policy</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 trust-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png" alt="secure" width="32" height="32" />
+        <div>
+          <div class="ti-title">Secure Payment</div>
+          <div class="ti-sub">SSL encrypted checkout</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES SECTION -->
+<section class="section-luxe" id="categories">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <div class="section-badge">Shop by Category</div>
+      <h2 class="section-title">Explore Our Collections</h2>
+      <p class="section-sub">From everyday essentials to luxury finds — discover your perfect style.</p>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="0">
+        <div class="cat-card">
+          <div class="cat-img-wrap">
+            <img src="https://pixielabellabangladesh.com/cdn/shop/files/Makeup_867a979b-8156-4e83-a90e-716124429f57.jpg?v=1771156024&width=1500" alt="Beauty" />
+          </div>
+          <div class="cat-name">Beauty</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="80">
+        <div class="cat-card">
+          <div class="cat-img-wrap">
+            <img src="https://img.drz.lazcdn.com/static/bd/p/04d9a76d42b4a21ef516102b15d5763e.jpg_720x720q80.jpg" alt="Watches" />
+          </div>
+          <div class="cat-name">Watches</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="160">
+        <div class="cat-card">
+          <div class="cat-img-wrap">
+            <img src="https://img.freepik.com/premium-photo/girl-fashion-store-chooses-blouse-summer_199743-617.jpg" alt="Fashion" />
+          </div>
+          <div class="cat-name">Fashion</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="240">
+        <div class="cat-card">
+          <div class="cat-img-wrap">
+            <img src="https://app.dropinblog.com/uploaded/blogs/34241141/files/Electronics.png" alt="Electronics" />
+          </div>
+          <div class="cat-name">Electronics</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="320">
+        <div class="cat-card">
+          <div class="cat-img-wrap">
+            <img src="https://woodentwist.com/cdn/shop/files/Home_Decor.png?v=1743306741" alt="Home & Living" />
+          </div>
+          <div class="cat-name">Home & Living</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+        <div class="cat-card">
+          <div class="cat-img-wrap">
+            <img src="https://m.media-amazon.com/images/I/91LtcFBGjWL.jpg" alt="Sport Gear" />
+          </div>
+          <div class="cat-name">Sport Gear</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DAILY DEALS -->
+<section class="deals-section" id="deals">
+  <div class="container">
+    <div class="deals-header d-flex flex-wrap justify-content-between align-items-center mb-4" data-aos="fade-up">
+      <div>
+        <div class="section-badge">Limited Time</div>
+        <h2 class="section-title mb-0">Daily Deals</h2>
+      </div>
+      <div class="countdown-wrap d-flex gap-2 align-items-center">
+        <span class="deals-label">Ends in:</span>
+        <div class="countdown-box" id="cd-h">08</div>
+        <span class="cd-colon">:</span>
+        <div class="countdown-box" id="cd-m">34</div>
+        <span class="cd-colon">:</span>
+        <div class="countdown-box" id="cd-s">21</div>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="deal-card">
+          <div class="deal-badge">-40%</div>
+          <div class="deal-img-wrap">
+            <img src="https://florallaus.com/cdn/shop/files/Floralla_PRO_Moisturizing_Rejuvenation_Collection.jpg?v=1726712301&width=1080" alt="Skincare Set" />
+          </div>
+          <div class="deal-info">
+            <div class="deal-name">Luxury Skincare Set</div>
+            <div class="deal-prices">
+              <span class="deal-old">$89.99</span>
+              <span class="deal-new">$53.99</span>
+            </div>
+            <div class="deal-progress-wrap">
+              <div class="deal-progress-bar"><div class="deal-progress-fill" style="width:72%"></div></div>
+              <span class="deal-sold">72% Sold</span>
+            </div>
+            <button class="btn deal-btn w-100 mt-2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="deal-card">
+          <div class="deal-badge">-35%</div>
+          <div class="deal-img-wrap">
+            <img src="https://assets.gadgetandgear.com/upload/product/20230601_1685592954_854332.jpeg" alt="Wireless Headphones" />
+          </div>
+          <div class="deal-info">
+            <div class="deal-name">Wireless Headphones</div>
+            <div class="deal-prices">
+              <span class="deal-old">$149.99</span>
+              <span class="deal-new">$97.49</span>
+            </div>
+            <div class="deal-progress-wrap">
+              <div class="deal-progress-bar"><div class="deal-progress-fill" style="width:58%"></div></div>
+              <span class="deal-sold">58% Sold</span>
+            </div>
+            <button class="btn deal-btn w-100 mt-2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="160">
+        <div class="deal-card">
+          <div class="deal-badge">-50%</div>
+          <div class="deal-img-wrap">
+            <img src="https://p.globalsources.com/IMAGES/PDT/B1194801000/2022-new-Smart-Watches.jpg?ver=5516441227" alt="Smart Watch" />
+          </div>
+          <div class="deal-info">
+            <div class="deal-name">Premium Smart Watch</div>
+            <div class="deal-prices">
+              <span class="deal-old">$199.99</span>
+              <span class="deal-new">$99.99</span>
+            </div>
+            <div class="deal-progress-wrap">
+              <div class="deal-progress-bar"><div class="deal-progress-fill" style="width:89%"></div></div>
+              <span class="deal-sold">89% Sold</span>
+            </div>
+            <button class="btn deal-btn w-100 mt-2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="240">
+        <div class="deal-card">
+          <div class="deal-badge">-30%</div>
+          <div class="deal-img-wrap">
+            <img src="https://img.kwcdn.com/product/fancy/21494d6a-c944-4709-98dd-d404cc2c72bc.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="Sport Shoes" />
+          </div>
+          <div class="deal-info">
+            <div class="deal-name">Performance Sneakers</div>
+            <div class="deal-prices">
+              <span class="deal-old">$119.99</span>
+              <span class="deal-new">$83.99</span>
+            </div>
+            <div class="deal-progress-wrap">
+              <div class="deal-progress-bar"><div class="deal-progress-fill" style="width:45%"></div></div>
+              <span class="deal-sold">45% Sold</span>
+            </div>
+            <button class="btn deal-btn w-100 mt-2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEST SELLERS -->
+<section class="section-luxe" id="bestsellers">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <div class="section-badge">Top Picks</div>
+      <h2 class="section-title">Best Sellers</h2>
+      <p class="section-sub">Our most loved products — picked by thousands of happy customers.</p>
+    </div>
+    <!-- Filter tabs -->
+    <div class="filter-tabs d-flex flex-wrap justify-content-center gap-2 my-4" data-aos="fade-up">
+      <button class="filter-tab active" data-filter="all">All</button>
+      <button class="filter-tab" data-filter="beauty">Beauty</button>
+      <button class="filter-tab" data-filter="fashion">Fashion</button>
+      <button class="filter-tab" data-filter="electronics">Electronics</button>
+      <button class="filter-tab" data-filter="home">Home</button>
+    </div>
+    <div class="row g-4" id="productsGrid">
+      <!-- Products injected by JS -->
+    </div>
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="#" class="btn btn-outline-luxe px-5">View All Products</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROMO BANNER -->
+<section class="promo-banner" data-aos="fade-up">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="promo-card promo-card-1">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80" alt="Fashion Sale" />
+          <div class="promo-overlay">
+            <div class="promo-tag">Fashion</div>
+            <h3>Summer Style<br/>Up to 40% Off</h3>
+            <a href="#" class="btn btn-sm promo-btn">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="promo-card promo-card-2">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80" alt="Electronics Sale" />
+          <div class="promo-overlay">
+            <div class="promo-tag">Electronics</div>
+            <h3>Tech Essentials<br/>From $9.99</h3>
+            <a href="#" class="btn btn-sm promo-btn">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US / TRUST SECTION -->
+<section class="section-luxe trust-section" id="trust">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <div class="section-badge">Why LuxeDrop</div>
+      <h2 class="section-title">Built on Trust & Quality</h2>
+      <p class="section-sub">Every product is sourced, verified, and shipped with care so you never have to worry.</p>
+    </div>
+    <div class="row g-4 mt-3">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="trust-card-luxe">
+          <div class="tc-img-wrap">
+            <img src="https://storage.googleapis.com/torg-cms-media/media/original_images/global_sourcing.png" alt="Global Sourcing" />
+          </div>
+          <h4 class="tc-title">Global Sourcing</h4>
+          <p class="tc-text">We partner with 500+ verified suppliers across 30 countries guaranteeing premium quality at competitive prices.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="120">
+        <div class="trust-card-luxe trust-card-featured">
+          <div class="tc-img-wrap">
+            <img src="https://static.vecteezy.com/system/resources/previews/063/581/430/non_2x/fast-delivery-concept-professional-and-reliable-courier-service-free-vector.jpg" />
+          </div>
+          <h4 class="tc-title">Fast & Reliable Delivery</h4>
+          <p class="tc-text">Real-time tracking from warehouse to your door. Most orders arrive within 7–14 business days or we refund.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="240">
+        <div class="trust-card-luxe">
+          <div class="tc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" alt="Customer Support" />
+          </div>
+          <h4 class="tc-title">24/7 Support</h4>
+          <p class="tc-text">Our expert team is always here. Live chat, email, WhatsApp we respond fast because your satisfaction is our priority.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="howitworks-section">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <div class="section-badge">Simple Process</div>
+      <h2 class="section-title">How It Works</h2>
+    </div>
+    <div class="row g-0 mt-4 steps-row">
+      <div class="col-6 col-md-3 step-item" data-aos="fade-up" data-aos-delay="0">
+        <div class="step-num">01</div>
+        <div class="step-img-wrap">
+          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=300&q=80" alt="Browse" />
+        </div>
+        <h5 class="step-title">Browse</h5>
+        <p class="step-text">Explore thousands of curated products across categories.</p>
+      </div>
+      <div class="col-6 col-md-3 step-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="step-num">02</div>
+        <div class="step-img-wrap">
+          <img src="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=300&q=80" alt="Order" />
+        </div>
+        <h5 class="step-title">Order</h5>
+        <p class="step-text">Secure checkout with multiple payment options available.</p>
+      </div>
+      <div class="col-6 col-md-3 step-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="step-num">03</div>
+        <div class="step-img-wrap">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGomzAL8x6hWAY8LOeH10SYtQPoFkBJTxc2w&s" alt="Ship" />
+        </div>
+        <h5 class="step-title">We Ship</h5>
+        <p class="step-text">Your order is packed and dispatched directly to your address.</p>
+      </div>
+      <div class="col-6 col-md-3 step-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="step-num">04</div>
+        <div class="step-img-wrap">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyk7sksWov4cNygRtytf2O2AxFnjGluxXA6w&s" alt="Enjoy" />
+        </div>
+        <h5 class="step-title">Enjoy</h5>
+        <p class="step-text">Receive your premium product and enjoy your purchase!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section-luxe reviews-section" id="reviews">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <div class="section-badge">Customer Love</div>
+      <h2 class="section-title">What Our Customers Say</h2>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Absolutely blown away by the quality! Ordered a skincare set and it arrived in perfect condition within 10 days. Will definitely shop again!"</p>
+          <div class="review-author d-flex align-items-center gap-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU30btsJuV9FSsrQT5ToUxSkTczkPAVj7gCA&s" alt="Sarah" class="review-avatar" />
+            <div>
+              <div class="rev-name">Sarah M.</div>
+              <div class="rev-location">New York, USA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="review-card review-featured">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Best online shopping experience I've had. The watch I ordered looks even better in person. Customer support was super responsive too!"</p>
+          <div class="review-author d-flex align-items-center gap-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINRZo37T2zYFc1Jb_4L7V38M2qE4iaEC0fw&s" alt="James" class="review-avatar" />
+            <div>
+              <div class="rev-name">James K.</div>
+              <div class="rev-location">London, UK</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"I was skeptical about dropshipping stores but LuxeDrop proved me wrong. Genuine products, fair prices, and amazing packaging. 10/10 recommend!"</p>
+          <div class="review-author d-flex align-items-center gap-3">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&q=80" alt="Priya" class="review-avatar" />
+            <div>
+              <div class="rev-name">Priya R.</div>
+              <div class="rev-location">Toronto, Canada</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter-section" data-aos="fade-up">
+  <div class="container">
+    <div class="newsletter-card">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <div class="nl-badge">Join 50,000+ Shoppers</div>
+          <h3 class="nl-title">Get Exclusive Deals<br/>Delivered to You</h3>
+          <p class="nl-text">Subscribe and get 10% off your first order plus early access to flash sales.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="nl-form d-flex gap-2">
+            <input type="email" class="form-control nl-input" placeholder="Enter your email address..." />
+            <button class="btn nl-btn">Subscribe</button>
+          </div>
+          <p class="nl-fine">No spam, ever. Unsubscribe at any time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section-luxe" id="contact">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-md-5" data-aos="fade-right">
+        <div class="section-badge">Get In Touch</div>
+        <h2 class="section-title">We're Here to Help</h2>
+        <p class="section-sub">Have a question? Our support team responds within 2 hours during business hours.</p>
+        <div class="contact-info-list mt-4">
+          <div class="ci-item d-flex gap-3 align-items-start mb-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="email" width="24" height="24" style="opacity:0.7;margin-top:4px" />
+            <div>
+              <div class="ci-label">Email Support</div>
+              <div class="ci-val">support@luxedrop.com</div>
+            </div>
+          </div>
+          <div class="ci-item d-flex gap-3 align-items-start mb-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="whatsapp" width="24" height="24" style="opacity:0.7;margin-top:4px" />
+            <div>
+              <div class="ci-label">WhatsApp</div>
+              <div class="ci-val">+1 (555) 123-4567</div>
+            </div>
+          </div>
+          <div class="ci-item d-flex gap-3 align-items-start">
+            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="hours" width="24" height="24" style="opacity:0.7;margin-top:4px" />
+            <div>
+              <div class="ci-label">Business Hours</div>
+              <div class="ci-val">Mon–Fri, 9AM–6PM EST</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7" data-aos="fade-left">
+        <div class="contact-form-card">
+          <div class="row g-3">
+            <div class="col-6">
+              <label class="form-label cf-label">First Name</label>
+              <input type="text" class="form-control cf-input" placeholder="John" />
+            </div>
+            <div class="col-6">
+              <label class="form-label cf-label">Last Name</label>
+              <input type="text" class="form-control cf-input" placeholder="Doe" />
+            </div>
+            <div class="col-12">
+              <label class="form-label cf-label">Email</label>
+              <input type="email" class="form-control cf-input" placeholder="john@example.com" />
+            </div>
+            <div class="col-12">
+              <label class="form-label cf-label">Subject</label>
+              <select class="form-select cf-input">
+                <option>Order Inquiry</option>
+                <option>Return Request</option>
+                <option>Product Question</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label cf-label">Message</label>
+              <textarea class="form-control cf-input" rows="4" placeholder="How can we help you?"></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary-luxe w-100">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="luxe-footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-md-4">
+        <div class="footer-brand">
+          <span class="brand-icon">L</span>
+          <span class="brand-text">LuxeDrop</span>
+        </div>
+        <p class="footer-desc mt-3">Your premier destination for curated global products. Quality you can trust, prices you'll love delivered fast.</p>
+        <div class="footer-payment mt-3 d-flex gap-2 flex-wrap">
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" alt="visa" height="24" />
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196561.png" alt="mastercard" height="24" />
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196566.png" alt="paypal" height="24" />
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196539.png" alt="amex" height="24" />
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6 class="footer-heading">Shop</h6>
+        <ul class="footer-links">
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Daily Deals</a></li>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6 class="footer-heading">Support</h6>
+        <ul class="footer-links">
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6 class="footer-heading">Company</h6>
+        <ul class="footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6 class="footer-heading">Follow Us</h6>
+        <ul class="footer-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center mt-5 pt-4">
+      <p class="footer-copy mb-0">© 2026 Dev-Shofiqur. All rights reserved.</p>
+      <p class="footer-copy mb-0">Made with care for global shoppers.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL TO TOP BUTTON -->
+<button class="scroll-top-btn" id="scrollTopBtn" title="Back to Top">
+  <img src="https://cdn-icons-png.flaticon.com/512/608/608336.png" alt="top" width="20" height="20" style="filter:invert(1)" />
+</button>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
